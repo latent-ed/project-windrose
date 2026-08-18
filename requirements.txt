@@ -1,0 +1,6 @@
+requests>=2.31
+pandas>=2.1
+pyarrow>=14.0
+boto3>=1.34
+python-dotenv>=1.0
+snowflake-connector-python>=3.6
