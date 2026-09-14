@@ -23,6 +23,8 @@ logs/
 # Data — do not commit extracts
 *.parquet
 *.csv
+*.csv
+!config/locations.csv
 data/
 
 # OS and editors

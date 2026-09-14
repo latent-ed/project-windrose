@@ -1,0 +1,9 @@
+location_id,city,region,country,latitude,longitude,timezone
+NEWCASTLE,Newcastle upon Tyne,North East England,England,54.9783,-1.6178,Europe/London
+LEEDS,Leeds,Yorkshire,England,53.8008,-1.5491,Europe/London
+MANCHESTER,Manchester,North West England,England,53.4808,-2.2426,Europe/London
+LIVERPOOL,Liverpool,North West England,England,53.4084,-2.9916,Europe/London
+EDINBURGH,Edinburgh,Scotland,Scotland,55.9533,-3.1883,Europe/London
+GLASGOW,Glasgow,Scotland,Scotland,55.8642,-4.2518,Europe/London
+ABERDEEN,Aberdeen,Scotland,Scotland,57.1497,-2.0943,Europe/London
+INVERNESS,Inverness,Scotland,Scotland,57.4778,-4.2247,Europe/London
