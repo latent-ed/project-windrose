@@ -1,0 +1,12 @@
+USE ROLE SYSADMIN;
+USE DATABASE WINDROSE_DB;
+USE SCHEMA WEATHER;
+
+CREATE FILE FORMAT IF NOT EXISTS windrose_parquet_format
+    TYPE = PARQUET
+    USE_LOGICAL_TYPE = TRUE;
+
+CREATE STAGE windrose_s3_stage
+    URL = 's3://<S3_BUCKET_NAME>/<S3_PREFIX>/'
+    STORAGE_INTEGRATION = windrose_s3_integration
+    FILE_FORMAT = windrose_parquet_format;
